@@ -1,0 +1,340 @@
+.modalHead {
+  background-color: red;
+  color:white;
+  text-align: center;
+}
+#techNumber {
+  font-size: .7em;
+}
+.social {
+  width:40px;
+}
+#social_placement {
+  position:fixed;
+bottom:0px;
+  top:0px;
+  right:1px;
+  margin-top:40px;
+}
+#behance {
+  position:absolute;
+
+  bottom:0px;
+  right:0px;
+}
+#facebook {
+  position:absolute;
+
+  top:55px;
+  right:0px;
+}
+#instagram{
+  position:absolute;
+
+  top:90px;
+  right:1px;
+}
+#linkedin {
+  position:absolute;
+
+  top:125px;
+  right:0px;
+}
+#pintrest {
+  position:absolute;
+
+  top:165px;
+  right:0px;
+
+}
+#twitter {
+
+position:relative;
+top:200px;
+right:0px;
+
+}
+#backAccordion {
+  background-image:none;
+  background-color:white;
+}
+#modalHold {
+  display:block;
+  text-align: center;
+  width:100%;
+}
+.mobileBtn {
+  position:relative;
+  width:45px;
+  left:10%;
+  float:left;
+}
+.aiButton {
+  height:30px;
+  width:150px;
+font-size: 1em;
+border-radius:20px;
+padding:6px;
+margin:auto;
+border-color:white;
+border-width:1px;
+background-color:black;
+color:white;
+height:auto;
+text-align: center;
+}
+
+#lyndaButton {
+  text-align: center;
+position:relative;
+top:0;
+margin-left:22.5%;
+margin-right:22.5%;
+}
+#pluralButton {
+  text-align: center;
+position:relative;
+top:0;
+margin-left:22.5%;
+margin-right:22.5%;
+}
+#tubeButton {
+  text-align: center;
+position:relative;
+top:0;
+margin-left:22.5%;
+margin-right:22.5%;
+}
+.aiButtonMobile {
+  height:70px;
+  width:85%;
+font-size: 2em;
+border-radius:20px;
+padding:6px;
+margin:auto;
+border-color:white;
+border-width:1px;
+background-color:black;
+color:white;
+
+height:auto;
+text-align: center;
+}
+.mobileBtnScience {
+  position:relative;
+  left:9%;
+  width:40px;
+
+
+  float:left;
+}
+.mobileBtnMath {
+  position:relative;
+  left:13%;
+  width:30px;
+
+
+  float:left;
+}
+#businessbtn {
+  position:relative;
+  right:4px;
+}
+.mobileBtnBsns {
+  position:relative;
+  left:8%;
+  top:1px;
+  width:40px;
+
+
+  float:left;
+}
+.smllspace {
+  position:relative;
+
+}
+.spacer {
+  height:10px;
+}
+#liveButton {
+  display:none;
+}
+#arrow {
+  display:none;
+}
+.color {
+  color:white;
+}
+
+#accordion {
+  position:relative;
+  transform: rotate(0deg);
+height:200px;
+width:200px;
+  text-align:center;
+display:none;
+
+}
+#design {
+  position:relative;
+font-size: .6em;
+  transform: rotate(0deg);
+margin:auto;
+padding:0px;
+height:100%;
+  width:75px;
+
+}
+#math {
+  position:relative;
+font-size: .6em;
+  transform: rotate(0deg);
+margin:auto;
+padding:0px;
+height:100%;
+  width:75px;
+
+}
+#writing {
+  position:relative;
+font-size: .6em;
+  transform: rotate(0deg);
+margin:auto;
+padding:0px;
+height:100%;
+  width:75px;
+
+}
+#science {
+  position:relative;
+font-size: .6em;
+  transform: rotate(0deg);
+margin:auto;
+padding:0px;
+height:100%;
+  width:75px;
+
+}
+#business {
+  position:relative;
+font-size: .6em;
+  transform: rotate(0deg);
+padding:0px;
+margin:auto;
+height:100%;
+  width:75px;
+
+}
+
+#thinkLogo {
+margin-left:20%;
+margin-right:20%;
+
+}
+#underArrow {
+  position:relative;
+width:270px;
+margin-left:auto;
+margin-right:auto;
+}
+.tut{
+  position:relative;
+
+
+  margin-left:40%;
+  margin-right:40%;
+}
+.length {
+  position:relative;
+  text-align: center;
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.appt {
+  position:relative;
+
+  margin-left:auto;
+  margin-right:auto;
+}
+#left {
+display:none;
+}
+.hd {
+  display:none;
+}
+#right {
+position:relative;
+float:right;
+
+}
+#header {
+  background-image:url("images/BANNER.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  width:100%;
+  padding-top:23%;
+  margin-right:auto;
+  margin-left:auto;
+}
+#live-bar {
+  height:10%;
+  background-color:red;
+  color:white;
+}
+#video {
+  background-color:red;
+margin-top:3%;
+  color:white;
+  height:10%;
+}
+#videoSection {
+
+}
+#plural {
+position:relative;
+width:17em;
+
+}
+#resources {
+  height:10%;
+  background-color:red;
+  color:white;
+}
+#forTube {
+  width:100%;
+}
+#tube {
+
+  position:relative;
+word-wrap:break-word;
+width:11em;
+margin-left:10%;
+}
+#lynda {
+  position:relative;
+
+}
+#logo {
+  height:50%;
+  width:50%;
+margin:auto;
+}
+.reTitle {
+  text-align:center;
+}
+#card {
+  width:19rem;
+  margin-left:auto;
+  margin-right:auto;
+}
+.card-block {
+  margin-left: -22px;
+  margin-right: -22px;
+}
+#wantSpace {
+  display:block;
+}
+#swiper {
+  display:none;
+}

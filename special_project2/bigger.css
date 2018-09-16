@@ -1,0 +1,635 @@
+
+@font-face {
+    font-family: Avenir;
+    src: url(AEH.ttf);
+}
+.social {
+  width:60px;
+}
+#social_placement {
+  position:absolute;
+
+  top:0px;
+  right:10px;
+  margin-top:40px;
+}
+#behance {
+  position:absolute;
+
+  top:20px;
+  right:70px;
+}
+#facebook {
+  position:absolute;
+
+  top:20px;
+  right:0px;
+}
+#instagram{
+  position:absolute;
+
+  top:80px;
+  right:70px;
+}
+#linkedin {
+  position:absolute;
+
+  top:78px;
+  right:0px;
+}
+#pintrest {
+  position:absolute;
+
+  top:150px;
+  right:70px;
+
+}
+#twitter {
+
+position:relative;
+top:150px;
+right:0px;
+
+}
+#underArrow {
+  position:relative;
+  margin-left:1%;
+
+}
+#backAccordion {
+background-image:url(images/background2.png);
+background-position: bottom;
+background-repeat: no-repeat;
+background-size: cover;
+background-origin: content-box;
+}
+.iconTop {
+  position:relative;
+  left:130px;
+width:10%;
+  transform: rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+}
+.iconTopScience {
+  position:relative;
+  left:120px;
+width:10%;
+  transform: rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+}
+.iconTopMath {
+  position:relative;
+  left:140px;
+width:10%;
+  transform: rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+}
+.iconBottomLeft {
+  position:relative;
+  width:15%;
+  float:left;
+}
+.iconBottomLeftFashion {
+  position:relative;
+  width:8%;
+  float:left;
+}
+.iconBottomRight {
+  position:relative;
+  width:15%;
+  float:left;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+#modalHold {
+  display:none;
+}
+
+#accordion {
+  position:relative;
+  transform: rotate(270deg);
+  -moz-transform:rotate(270deg);
+  -ms-transform:rotate(270deg);
+  -o-transform:rotate(270deg);
+  -webkit-transform:rotate(270deg);
+height:400px;
+width:400px;
+  text-align:center;
+    font-family: Avenir;
+  display:block;
+}
+#card {
+  width:17rem;
+}
+#design {
+  position:relative;
+font-size: .7em;
+  transform: rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+margin:auto;
+padding:1px;
+height:100%;
+  width:400px;
+
+}
+#design ul li {
+  list-style-type:square;
+  list-style-position:inside;
+  text-align:justify;
+  margin-left:40%;
+}
+
+#math {
+  position:relative;
+font-size: .7em;
+  transform: rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+margin:auto;
+padding:1px;
+height:100%;
+  width:100px;
+
+}
+#writing {
+  position:relative;
+font-size: .7em;
+  transform: rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+margin:auto;
+padding:1px;
+height:100%;
+  width:100px;
+
+}
+#science {
+  position:relative;
+font-size: .7em;
+  transform: rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+margin:auto;
+padding:1px;
+height:100%;
+  width:100px;
+
+}
+#business {
+  position:relative;
+font-size: .7em;
+  transform: rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+padding:1px;
+margin:auto;
+height:100%;
+  width:100px;
+
+}
+
+#thinkLogo {
+margin-left:40%;
+margin-right:40%;
+}
+#left {
+
+background-color:white;
+padding-left:4%;
+padding-top:7%;
+border-bottom-right-radius:0px;
+}
+#right {
+  position:relative;
+  left:-20%;
+
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+#container {
+  width:100%;
+  height:100%;
+}
+#header {
+  background-image:url("images/BANNER.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  width:100%;
+padding-top:23%;
+
+margin-right:auto;
+margin-left:auto;
+}
+#live-bar {
+     
+  height:15%;
+  background-color:red;
+  color:white;
+  font-size: 2.5em;
+text-align:center;
+  font-weight:bold;
+  font-family: Avenir;
+
+margin-bottom:2%;
+}
+#video {
+  background-color:red;
+margin-top:3%;
+margin-bottom:2%;
+  color:white;
+  height:15%;
+  font-size: 2.5em;
+  font-weight:bold;
+    font-family: Avenir;
+text-align:center;
+}
+#videoSection {
+
+}
+#plural {
+  position:relative;
+
+width:20em;
+
+}
+#resources {
+  height:15%;
+  font-weight:bold;
+    font-family: Avenir;
+  background-color:red;
+  color:white;
+  height:15%;
+  margin-top:3%;
+  margin-bottom:2%;
+  font-size: 2.5em;
+text-align:center;
+}
+#tube {
+  position:relative;
+word-wrap:break-word;
+width:11em;
+margin-left:10%;
+}
+#forTube {
+  width:20em;
+}
+
+#lynda {
+  position:relative;
+
+width:15em;
+
+}
+#logo {
+  height:50%;
+  width:50%;
+margin-left:25%;
+margin-right:25%;
+}
+.reTitle {
+  text-align:center;
+}
+#wantSpace {
+  display:none;
+}
+#techNumber {
+  color:white;
+  position:relative;
+margin-left:auto;
+margin-right:auto;
+  font-size: 1.5em;
+}
+#arrow {
+  position:relative;
+  right:30px;
+  width:60%;
+}
+#liveButton {
+  position:relative;
+  left:20%;
+}
+#lyndaButton {
+  text-align: center;
+position:relative;
+top:75px;
+margin-left:14%;
+margin-right:14%;
+}
+#pluralButton {
+  text-align: center;
+position:relative;
+top:-50px;
+margin-left:27%;
+margin-right:27%;
+}
+#tubeButton {
+  text-align: center;
+position:relative;
+top:22px;
+margin-left:17%;
+margin-right:17%;
+}
+#videoNavigate {
+  width:100%;
+}
+.center {
+  text-align: center;
+}
+#libButton {
+  margin-left:16%;
+    margin-right:16%;
+    color:white;
+}
+#refButton {
+  margin-left:16%;
+  margin-right:16%;
+}
+card-header a {
+  color: #FCFCFC;
+  background-color:;
+}
+
+#headingOne:hover {
+
+background-color: black;
+
+color:white;
+
+}
+
+#headingTwo:hover {
+
+background-color: black;
+
+color:white;
+
+}
+
+#headingThree:hover {
+
+background-color: black;
+
+color:white;
+
+}
+button:hover {
+  cursor:pointer;
+}
+#headingFour:hover {
+
+background-color: black;
+
+color:white;
+
+}
+
+#headingFive:hover {
+
+background-color: black;
+
+color:white;
+
+}
+
+#headingSix:hover {
+
+background-color: black;
+
+color:white;
+
+}
+
+#headingSeven:hover {
+
+background-color: black;
+
+color:white;
+
+}
+
+#headingEight:hover {
+
+background-color: black;
+
+color:white;
+
+}
+
+#headingNine:hover {
+
+background-color: black;
+
+color:white;
+
+}
+
+#headingTen:hover {
+
+background-color: black;
+
+color:white;
+text-decoration:none;
+}
+
+#headingEleven:hover {
+
+background-color: black;
+
+color:white;
+text-decoration:none;
+
+}
+
+#headingOne {
+	background-color: #98BC5E;
+    text-align: center;
+}
+#headingOne a {
+  color:white;
+  text-decoration:none;
+}
+
+#headingTwo {
+background-color: #508DAB;
+  text-align: center;
+}
+#headingTwo a {
+  color:white;
+  text-decoration:none;
+}
+
+#headingThree {
+	background-color: #6D356D;
+    text-align: center;
+
+}
+#headingThree a {
+  color:white;
+  text-decoration:none;
+}
+
+#headingFour {
+	background-color: #F29F5C;
+    text-align: center;
+
+}
+#headingFour a {
+  color:white;
+  text-decoration:none;
+}
+
+#headingFive {
+background-color: #EFDE65;
+  text-align: center;
+}
+#headingFive a {
+  color:white;
+  text-decoration:none;
+}
+
+#headingSix {
+	background-color: #AF3D66;
+    text-align: center;
+color:white;
+}
+#headingSix a {
+  color:white;
+  text-decoration:none;
+}
+
+#headingSeven {
+	background-color: #F29F5C;
+    text-align: center;
+  color:white;
+}
+#headingSeven a {
+  color:white;
+  text-decoration:none;
+}
+#headingEight {
+background-color: #EFDE65;
+  text-align: center;
+
+}
+#headingEight a {
+  color:white;
+  text-decoration:none;
+}
+#headingNine {
+	background-color: #6D356D;
+    text-align: center;
+}
+#headingNine a{
+  color:white;
+  text-decoration:none;
+}
+#headingTen {
+	background-color: #98BC5E;
+    text-align: center;
+  color:white;
+}
+#headingTen a {
+  color:white;
+  text-decoration:none;
+}
+#headingEleven {
+		background-color: #508DAB;
+  color:white;
+    text-align: center;
+}
+#headingEleven a {
+  color:white;
+  text-decoration:none;
+}
+#headingFourteen {
+  background-color: #313268;
+    text-align: center;
+}
+#headingFourteen a {
+  color:white;
+  text-align: center;
+  text-decoration: none;
+
+}
+#headingFourteen:hover {
+  background-color:black;
+}
+#headingThirten {
+  background-color: #4F346A;
+    text-align: center;
+}
+#headingThirten a {
+  color:white;
+  text-align: center;
+    text-decoration: none;
+}
+#headingThirten:hover {
+  background-color:black;
+}
+#headingFifteen {
+  background-color: #EA781B;
+    text-align: center;
+}
+#headingFifteen a {
+  color:white;
+  text-align: center;
+    text-decoration: none;
+}
+#headingFifteen:hover {
+  background-color:black;
+}
+#headingSixteen {
+  background-color: #2E573B;
+  text-align: center;
+}
+#headingSixteen a {
+  color:white;
+  text-align: center;
+    text-decoration: none;
+}
+#headingSixteen:hover {
+  background-color:black;
+}
+.aiButton {
+  border-radius:20px;
+  padding:6px;
+margin:auto;
+  border-color:white;
+  border-width:1px;
+  background-color:black;
+  color:white;
+  width:150px;
+  height:auto;
+  text-align: center;
+}
+.aiButton:hover {
+  background-color:red;
+}
